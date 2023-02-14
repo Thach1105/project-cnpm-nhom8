@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mt-16{
+    margin: 16px;
+}
+.mt-8{
+    margin: 8px;
+}
+#main{
+    width: 100vw;
+    height: 100vw;
+}
+.header{
+    display: flex;
+    margin: 50px;
+}
+.header .img-avatar{
+    flex: 1;
+}
+.header .img-avatar .my-avatar{
+    width: 200px;
+    height: 200px;
+}
+.header .info{
+    background-color: #ccc;
+    flex: 2;
+}
+.header .thong-tin{
+    display: flex;
+    justify-content: space-around;
+}
+.msv{
+    margin-left: 16px;
+}
+.lop{
+    margin-left: 16px;
+}
+#main .story-list{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.story-list .story{
+    background-color: #333;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+}
+
